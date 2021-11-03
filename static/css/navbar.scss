@@ -1,0 +1,58 @@
+.navbar {
+  position: absolute;
+  text-transform: uppercase;
+  padding-left: 75px;
+  padding-right: 75px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  letter-spacing: 1px;
+  background-color: rgba(0, 0, 0, 0%);
+  width: 100%;
+  .navbar-brand {
+    display: flex;
+    font-size: inherit;
+
+    span {
+      align-self: center;
+    }
+
+    .brand {
+      width: 37px;
+      height: 37px;
+      border-radius: 50%;
+      background-color: #000000;
+      font-family: Ogg;
+      font-size: 24px;
+      font-style: oblique;
+      line-height: 37px;
+      letter-spacing: 1.71429px;
+      color: #FFFFFF;
+      text-transform: lowercase;
+      text-align: center;
+      margin-right: 10px;
+    }
+  }
+
+  .navbar-nav {
+    margin-right: 80px;
+  }
+
+  [class*="col-"] {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .nav-item {
+    a {
+      padding: 0.5rem;
+      color: #000000;
+    }
+  }
+
+  .btn-menu {
+    display: flex;
+    align-self: center;
+  }
+
+
+}

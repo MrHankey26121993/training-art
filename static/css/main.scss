@@ -1,6 +1,17 @@
 @import "colors.scss";
 @import "fonts.scss";
 
+@import "navbar.scss";
+
 body {
     font-family: Oswald;
+}
+
+.main {
+    position: relative;
+}
+
+.wrapper {
+    height: 100vh;
+    background-color: $mainOne;
 }

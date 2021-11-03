@@ -1,6 +1,6 @@
 <template>
-  <div>
-       DESINGERS 
+  <div class="wrapper">
+        
   </div>
 </template>
 
